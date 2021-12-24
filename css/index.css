@@ -1,0 +1,117 @@
+@media screen and (min-width: 1025px) {
+    header {
+        font-size: 50px;
+        margin-top: -20px;
+        margin-left: 500px;
+    }
+    .fundo {
+        width: 800px;
+        height: 550px;
+        margin-top: 50px;
+        margin-left: 18%;
+        margin-right: 18%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    header {
+        font-size: 50px;
+        margin-top: -20px;
+        margin-left: 380px;
+    }
+    .fundo {
+        width: 800px;
+        height: 550px;
+        margin-top: 50px;
+        margin-left: 10%;
+        margin-right: 18%;
+    }
+}
+
+.teclas {
+    width: 700px;
+    height: 85px;
+    margin: 7px;
+    margin-left: 120px;
+}
+
+.teclas button {
+    width: 20%;
+    height: 100%;
+}
+
+.teclas #teclazero {
+    width: 40.5%
+}
+
+.teclas #igual {
+    height: 178px;
+    margin-left: 5px;
+    width: 140px;
+}
+
+.resultado {
+    width: 500px;
+    height: 30px;
+    margin-left: 150px
+}
+
+button {
+    border-radius: 25px;
+}
+
+p {
+    margin: 4px;
+}
+
+#backSpace {
+    margin-left: 670px;
+    margin-top: -40px;
+    height: 8%;
+}
+
+#plusMiles {
+    margin-left: 80px;
+    margin-top: -40px;
+    height: 8%;
+    width: 8%;
+}
+
+body {
+    background-color: aqua;
+}
+
+header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    position: absolute;
+}
+
+.resultado {
+    background-color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-style: solid;
+    text-align: end;
+}
+
+.fundo {
+    position: absolute;
+}
+
+.teclas {
+    /* background-color: blanchedalmond; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex-wrap: nowrap;
+}
+
+.teclas #igual {
+    position: absolute;
+}
+
+#backSpace {
+    position: absolute;
+}
+
+#plusMiles {
+    position: absolute;
+}
